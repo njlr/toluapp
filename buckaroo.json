@@ -1,0 +1,6 @@
+{
+  "name": "toluapp",
+  "dependencies": {
+    "lua": "5.1.0"
+  }
+}

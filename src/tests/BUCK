@@ -1,0 +1,15 @@
+cxx_binary(
+  name = 'tarray',
+  header_namespace = '',
+  headers = [
+    'tarray.h',
+  ],
+  srcs = [
+    'tarray.c',
+  ],
+  deps = [
+    '//:toluapp',
+    '//:toluappbin',
+    'lua//:lua',
+  ],
+)
